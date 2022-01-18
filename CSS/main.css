@@ -1,0 +1,60 @@
+@import url(https://fonts.google.com/specimen/Licorice#standard-styles);
+:root {
+  --primary-color: #007AF3;
+}
+
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  font-family: poppins;
+}
+
+.navbar {
+  background-color: white;
+  padding: 1em;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: chartreuse;
+  font-size: 1.5em;
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobile-cta {
+  cursor: pointer;
+}
+
+.navbar span {
+  color: var(--primary-color);
+}
+
+.navbar a {
+  color: grey;
+}
+
+.navbar ul {
+  list-style-type: disc;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar section {
+  padding: 5em 2em;
+}
+
+.navbar .hero {
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
